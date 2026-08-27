@@ -1,0 +1,31 @@
+{
+  "buddhist": {
+    "rituals": "Buddhist weddings in Sri Lanka often involve the Poruwa ceremony, where the couple stands on a decorated platform. Key rituals include the tying of the pinky fingers (Nool Bandima) and the offering of betel leaves.",
+    "attire": "The bride typically wears a Kandyan Sari (Osariya) in white or gold. The groom wears the traditional Nilame attire (Mul Anduma).",
+    "food": "Traditional milk rice (Kiribath) is a must, along with a variety of Sri Lankan curries and sweetmeats like Kavum and Kokis.",
+    "packages": "We offer 'Lumbini' (Budget), 'Maya' (Standard), and 'Siddhartha' (Premium) packages starting from 1,000,000 LKR."
+  },
+  "hindu": {
+    "rituals": "Hindu weddings (Vivaha) are colorful and ritual-heavy. They include the Agni Pasini (walking around the fire) and the tying of the Thali (mangalsutra).",
+    "attire": "The bride wears a vibrant Kanchipuram silk saree. The groom wears a traditional Veshti and a silk shirt or a Sherwani.",
+    "food": "Vegetarian feasts (Saivam) served on banana leaves are common, featuring items like Vadai, Payasam, and various rice dishes.",
+    "packages": "We offer 'Shakti' (Budget), 'Ganesha' (Standard), and 'Laxmi' (Premium) packages starting from 1,200,000 LKR."
+  },
+  "christian": {
+    "rituals": "Christian weddings usually take place in a church. Key moments include the exchange of vows, the exchange of rings, and the signing of the register.",
+    "attire": "The bride wears a white wedding gown with a veil. The groom wears a formal suit or tuxedo.",
+    "food": "A mix of western and local cuisine, often featuring a multi-tiered wedding cake and wine.",
+    "packages": "We offer 'Grace' (Budget), 'Faith' (Standard), and 'Eternal' (Premium) packages starting from 900,000 LKR."
+  },
+  "muslim": {
+    "rituals": "The Nikah ceremony is the heart of a Muslim wedding, where the marriage contract is signed. This is often followed by the Walima (reception).",
+    "attire": "The bride wears a heavily embroidered Lehanga or Saree with a Hijab or headscarf. The groom wears a Sherwani or a suit with a Fez or cap.",
+    "food": "Briyani is the star of the menu, accompanied by Watalappam for dessert.",
+    "packages": "We offer 'Noor' (Budget), 'Zayan' (Standard), and 'Sultan' (Premium) packages starting from 1,100,000 LKR."
+  },
+  "general": {
+    "venues": "Popular venues include Galle Face Hotel, Cinnamon Grand, and various beach resorts in Bentota.",
+    "photography": "Capturing moments is essential. We recommend pre-shoot sessions at the Viharamahadevi Park or Galle Fort.",
+    "budget": "Wedding budgets in Sri Lanka can range from 1,000,000 LKR to 10,000,000 LKR depending on the number of guests and luxury level."
+  }
+}

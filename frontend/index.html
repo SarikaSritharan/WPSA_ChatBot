@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayu AI | Your Sri Lankan Wedding Planner</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="landing-page">
+        <nav>
+            <div class="logo">Ayu<span>AI</span></div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Cultures</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+
+        <main class="hero">
+            <div class="hero-content">
+                <h1>Your Dream Sri Lankan Wedding, <br>Planned by <span>Ayu</span></h1>
+                <p>Expert guidance for Buddhist, Hindu, Christian, and Muslim traditions. From rituals to venues, we
+                    handle the details while you enjoy the magic.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Explore Packages</button>
+                    <button class="btn-secondary">View Venues</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1604017011826-d3b4c23f8914?auto=format&fit=crop&q=80&w=1000"
+                    alt="Sri Lankan Wedding">
+            </div>
+        </main>
+    </div>
+
+    <!-- Chatbot Toggle Icon -->
+    <div id="chat-toggle" class="chat-icon pulse">
+        <i class="fas fa-comment-dots"></i>
+        <span>Chat with Ayu</span>
+    </div>
+
+    <!-- Draggable Chat Window -->
+    <div id="chat-window" class="chat-window hidden">
+        <div id="chat-header" class="chat-header">
+            <div class="header-info">
+                <div class="avatar-container">
+                    <img src="static/images/ayu_profile.png" alt="Ayu" class="avatar-img">
+                    <span class="dot"></span>
+                </div>
+                <div class="status">
+                    <h3>Ayu<span id="ayu-mood" class="ayu-mood">😊</span></h3>
+                    <p>Wedding Planner | Assistant</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <select id="language-selector" class="lang-select">
+                    <option value="en">English</option>
+                    <option value="si">සිංහල</option>
+                    <option value="ta">தமிழ்</option>
+                </select>
+                <button id="speaker-toggle" title="Speaker ON/OFF"><i class="fas fa-volume-up"></i></button>
+                <button id="collapse-chat" title="Collapse"><i class="fas fa-minus"></i></button>
+                <button id="maximize-chat" title="Maximize/Restore"><i class="fas fa-expand-alt"></i></button>
+                <button id="close-chat" title="Close"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+
+        <div id="chat-messages" class="chat-messages">
+            <div class="message bot">
+                <div class="text">Ayubowan! 🙏 I'm Ayu. How can I help you plan your beautiful Sri Lankan wedding today?
+                </div>
+            </div>
+        </div>
+
+        <div id="wave-container" class="wave-container hidden">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <p>Listening...</p>
+            <button id="cancel-voice" class="cancel-voice" title="Cancel Voice Input">
+                <i class="fas fa-times-circle"></i>
+            </button>
+        </div>
+
+        <div class="chat-input-area">
+            <div id="emoji-panel" class="emoji-panel hidden">
+                <span>😊</span><span>💍</span><span>💐</span><span>✨</span><span>🐘</span><span>💒</span>
+                <span>🥘</span><span>👗</span><span>❤️</span><span>🙌</span><span>🎉</span><span>🥂</span>
+                <span>🎂</span><span>🎵</span><span>🎁</span><span>💌</span><span>🌟</span><span>🌸</span>
+            </div>
+            <button id="emoji-btn" class="emoji-btn" title="Add Emoji">😊</button>
+            <input type="text" id="user-input" placeholder="Type your message here..." autocomplete="off">
+            <button id="voice-input" class="voice-btn" title="Voice Input"><i class="fas fa-microphone"></i></button>
+            <button id="send-button" class="send-btn"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="static/js/draggable.js"></script>
+    <script src="static/js/voice.js"></script>
+    <script src="static/js/chat.js"></script>
+</body>
+
+</html>

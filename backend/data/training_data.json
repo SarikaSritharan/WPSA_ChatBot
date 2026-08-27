@@ -1,0 +1,24 @@
+{
+  "intents": {
+    "greeting": ["hi", "hello", "hey", "good morning", "good evening"],
+    "buddhist_info": ["buddhist", "temple", "poruwa", "kandyan", "osariya", "nilame"],
+    "hindu_info": ["hindu", "tamil", "kovil", "thali", "kanchipuram", "veshti"],
+    "christian_info": ["christian", "church", "vows", "gown", "tuxedo", "suit"],
+    "muslim_info": ["muslim", "islam", "nikah", "walima", "sherwani", "briyani"],
+    "venue": ["venue", "location", "place", "hotel", "hall", "beach"],
+    "budget": ["budget", "cost", "price", "expensive", "cheap", "money"],
+    "photography": ["photo", "video", "camera", "shoot", "pictures"],
+    "catering": ["food", "eat", "menu", "catering", "drinks", "dinner"],
+    "attire": ["dress", "clothes", "wear", "suit", "saree", "gown", "outfit"],
+    "rituals": ["ritual", "tradition", "custom", "ceremony", "practice"],
+    "packages": ["package", "deal", "offer", "discount"],
+    "help": ["help", "support", "assist", "what can you do"],
+    "farewell": ["bye", "goodbye", "see you", "thanks", "thank you"]
+  },
+  "emotions": {
+    "happy": ["happy", "excited", "great", "wonderful", "amazing", "good", "love", "perfect", "excellent"],
+    "stressed": ["stressed", "worried", "anxious", "panic", "hard", "difficult", "help", "frustrated", "overwhelmed", "tired", "pressure"],
+    "sad": ["sad", "unhappy", "bad", "disappointed", "sorry", "lonely", "hurt"],
+    "angry": ["angry", "mad", "hate", "stupid", "annoying", "fix", "upset", "annoyed", "useless", "terrible"]
+  }
+}
